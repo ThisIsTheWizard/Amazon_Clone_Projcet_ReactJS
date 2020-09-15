@@ -1,0 +1,70 @@
+.header {
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+}
+
+.header .header_logo {
+  width: 100px;
+  margin: 18px 20px 0 20px;
+}
+
+.header_search {
+  display: flex;
+  flex: 1;
+}
+
+.header .header_search .header_search_input {
+  height: 22px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header .header_search .header_search_icon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+}
+
+.header .header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header .header_nav .header_nav_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .header_nav .header_nav_link .header_nav_link_option {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.header .header_nav .header_nav_link .header_nav_link_option span:first-child {
+  font-size: 12px;
+}
+
+.header .header_nav .header_nav_link .header_nav_link_option span:last-child {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.header .header_nav .header_nav_link .header_nav_link_basket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header .header_nav .header_nav_link .header_nav_link_basket span {
+  margin: 0 10px;
+}
